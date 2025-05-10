@@ -31,7 +31,7 @@
   --tgui--caption2--font_size: 11px;
   --tgui--caption2--line_height: 16px;
 
-  --tgui--border--width: 1px;
+  --tgui--border--width: 0px;
   --tgui--base--section--box_shadow: 0 1px 2px 0 rgba(0, 0, 0, .10);
 
   /** Native tokens */
@@ -140,7 +140,7 @@
 
 @media (min-resolution: 2dppx) {
   .wrapper {
-    --tgui--border--width: .5px;
+    --tgui--border--width: 0px;
   }
 }
 
